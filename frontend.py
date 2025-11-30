@@ -129,7 +129,7 @@ class CEHToolkitWindow(QMainWindow):
         # name -> QLineEdit
         self.param_edits: Dict[str, QLineEdit] = {}
 
-        self.setWindowTitle("CEH v13 Toolkit – SSH Remote")
+        self.setWindowTitle("Red team Toolkit – v1")
         self.setMinimumSize(1400, 850)
 
         self._build_ui()
